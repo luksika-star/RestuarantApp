@@ -11,6 +11,8 @@ namespace RestuarantApp
         static void Main(string[] args)
         {
             Console.WriteLine("Hello SIT.11");
+            Console.WriteLine("week 2");
+            Console.WriteLine("เหนื่อยแล้ววววว");
         }
     }
 }
