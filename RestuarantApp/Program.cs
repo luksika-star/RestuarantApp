@@ -12,7 +12,22 @@ namespace RestuarantApp
         {
             Console.WriteLine("Hello SIT.11");
             Console.WriteLine("week 2");
-            Console.WriteLine("เหนื่อยแล้ววววว");
         }
+    }
+    public class Restuarant
+    {
+        public int id { get; set; }
+        public string name { get; set; }
+        public string type { get; set; }
+        public double rating { get; set; }
+
+        public Restuarant(int id, string name, string type, double rate)
+        {
+            this.id = id;
+            this.name = name;
+            this.type = type;
+            this.rating = rate;
+        }
+
     }
 }
