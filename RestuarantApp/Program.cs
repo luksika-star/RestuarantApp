@@ -16,8 +16,17 @@ namespace RestuarantApp
         {
              new Restuarant(1, "Quanjude Roast Duck", "Beijing Cuisine", 4.5),
              new Restuarant(2, "Donglaishun Hot Pot", "Hot Pot", 4.6),
-             new Restuarant(3, "Din Tai Fung", "Taiwanese Cuisine", 4.7)
+             new Restuarant(3, "Din Tai Fung", "Taiwanese Cuisine", 4.7),
+             new Restuarant(4, "Huguosi Snacks", " Snackse", 4.2),
+             new Restuarant(5, "Haidilao Hot", " Pot Hot Pot", 4.8)
         };
+            foreach (Restuarant res in restaurants)
+            {
+                Console.WriteLine($"ID: {res.id} | ร้าน: {res.name} | ประเภท: {res.type} | คะแนน: {res.rating}");
+            }
+
+            
+
 
         }
     }
