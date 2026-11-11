@@ -28,7 +28,10 @@ namespace RestuarantApp
             int totalRestuarant = restaurants.Count;
             double averageRating = restaurants.Average(res => res.rating);
 
-            
+            Console.WriteLine("--------------------------------------------------");
+            Console.WriteLine("--------------------------------------------------");
+            Console.WriteLine($"จำนวนร้านทั้งหมด: {totalRestuarant} ร้าน ");
+            Console.WriteLine($"คะแนนเฉลี่ยของทุกร้าน: {averageRating:F2} คะแนน ");
 
 
         }
